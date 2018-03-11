@@ -1,5 +1,5 @@
 #第一行必须指令基于的基础镜像
-From ubutu
+From ubuntu
 
 #维护者信息
 MAINTAINER docker_user  docker_user@mail.com
