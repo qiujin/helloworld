@@ -5,8 +5,4 @@ From ubuntu
 MAINTAINER docker_user  docker_user@mail.com
 
 #镜像的操作指令
-RUN apt-get update && apt-get install -y ngnix 
-RUN echo "\ndaemon off;">>/etc/ngnix/nignix.conf
 
-#容器启动时执行指令
-CMD /usr/sbin/ngnix
